@@ -12,8 +12,8 @@ SECRET_KEY = 'your-secret-key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS = ['*']  # Change this to your domain after debugging
 
-ALLOWED_HOSTS = ['penny-tracker.vercel.app', 'localhost', '127.0.0.1']
 
 
 # Application definition
