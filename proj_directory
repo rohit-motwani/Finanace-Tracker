@@ -1,0 +1,74 @@
+finance_tracker/
+├── finance_tracker/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
+│   ├── asgi.py
+│   ├── manage.py
+│
+├── users/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── views.py
+│   ├── forms.py
+│   ├── urls.py
+│   ├── serializers.py
+│   ├── templates/
+│   │   └── users/
+│   │       ├── login.html
+│   │       ├── register.html
+│   │       ├── profile.html
+│   ├── tests.py
+│   └── signals.py
+│
+├── finance/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── views.py
+│   ├── forms.py
+│   ├── urls.py
+│   ├── serializers.py
+│   ├── templates/
+│   │   └── finance/
+│   │       ├── dashboard.html
+│   │       ├── add_transaction.html
+│   │       ├── edit_transaction.html
+│   │       ├── report.html
+│   ├── tests.py
+│   └── signals.py
+│
+├── notifications/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── views.py
+│   ├── forms.py
+│   ├── urls.py
+│   ├── serializers.py
+│   ├── templates/
+│   │   └── notifications/
+│   │       ├── email_template.html
+│   ├── tests.py
+│   └── signals.py
+│
+├── static/
+│   ├── css/
+│   │   └── main.css
+│   ├── js/
+│   │   └── main.js
+│
+├── templates/
+│   ├── base.html
+│
+├── media/
+│   ├── receipts/
+│
+├── db.sqlite3
+├── README.md
+├── requirements.txt
